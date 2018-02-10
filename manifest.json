@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "WebExtension-Bookmark",
+  "version": "1.0",
+  "description": "Syncronisation des bookmarks multi-navigateur",
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png"
+  },
+  "permissions": [
+    "bookmarks",
+    "tabs",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
