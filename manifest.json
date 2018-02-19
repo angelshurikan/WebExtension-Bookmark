@@ -9,8 +9,7 @@
   },
   "permissions": [
     "bookmarks",
-    "tabs",
-    "contextMenus"
+    "identity"
   ],
   "background": {
     "scripts": [
